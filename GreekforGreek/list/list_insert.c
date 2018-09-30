@@ -43,6 +43,14 @@ int main()
 	cout << *i << " ";
 
 	cout << endl;
+	
+	 // Using reverse() to reverse 1st forward list 
+     	 flist1.reverse(); 
+	 // Displaying reversed forward list 
+         cout << "The contents of forward list after"  " reversing are : "; 
+         for (int &x : flist1) 
+         cout << x << " "; 
+         cout << endl << endl; 
 
 	// using emplace to insert elements at the 6th position
 	// inserts 8 at 6th position
