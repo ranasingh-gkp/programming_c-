@@ -1,4 +1,0 @@
-https://www.geeksforgeeks.org/converting-strings-numbers-cc/
-https://www.geeksforgeeks.org/reverse-a-string-in-c-cpp-different-methods/
-https://www.geeksforgeeks.org/convert-string-char-array-cpp/
-
