@@ -3,4 +3,5 @@ https://www.geeksforgeeks.org/reverse-a-string-in-c-cpp-different-methods/
 https://www.geeksforgeeks.org/convert-string-char-array-cpp/
 https://www.geeksforgeeks.org/stdstringappend-in-c/
 https://www.geeksforgeeks.org/substring-in-cpp/
+https://www.geeksforgeeks.org/c-string-class-and-its-applications/
 
