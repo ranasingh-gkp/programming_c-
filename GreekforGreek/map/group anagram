@@ -1,0 +1,36 @@
+//https://leetcode.com/problems/group-anagrams/description/
+
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<string> strs1;
+        vector<vector<string>> ans;
+        map<string, vector<string>> mp;
+        for (int i=0; i<strs.size(); i++){
+            		string str1 = strs[i];
+        		sort(str1.begin(), str1.end());
+        if(mp.find(str1)!=mp.end())
+            mp[str1].push_back(strs[i]);
+            else{
+                //not found
+                //map doesn have entry for str1
+                // vector doesnt exist
+                //so create vector
+                vector<string> temp;
+                temp.push_back(strs[i]);
+                mp[str1]=temp;
+            }
+              
+            
+                
+        }
+        for(auto x:mp){
+            ans.push_back(x.second);
+                
+        }
+
+            
+                 return ans;   
+
+    }
+};
