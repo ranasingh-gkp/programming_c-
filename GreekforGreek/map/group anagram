@@ -16,9 +16,7 @@ public:
                 //map doesn have entry for str1
                 // vector doesnt exist
                 //so create vector
-                vector<string> temp;
-                temp.push_back(strs[i]);
-                mp[str1]=temp;
+                 mp[str1].push_back(strs[i]);
             }
               
             
