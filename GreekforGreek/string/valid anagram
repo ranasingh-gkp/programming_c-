@@ -1,0 +1,28 @@
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+
+transform(s.begin(), s.end(), s.begin(), ::tolower);
+transform(t.begin(), t.end(), t.begin(), ::tolower);
+int count1[26]={0};
+int count2[26]={0};
+if (s.size()!=t.size()){
+    return false;
+}
+for ( int i=0; i<s.size(); i++){
+    char ch=s[i];
+    count1[ch-'a']++;
+}
+for ( int i=0; i<t.size(); i++){
+    char ch=t[i];
+    count2[ch-'a']++;
+}
+for(int i=0; i<26;i++){
+    if (count1[i]!=count2[i])
+        return false;
+    
+}
+return true;
+}
+    
+};
