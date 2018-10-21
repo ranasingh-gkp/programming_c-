@@ -1,3 +1,4 @@
+//https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic/
 //Minimum Characters required to make a String Palindromic
 bool checkPallindrome(string str)
 {
